@@ -10,5 +10,4 @@
         1. Crear una base de datos en producción
         2. Capturar la url de conexión
         3. Cambiar el valor de la variable de entorno (.env) POSTGRES_URL por el valor de producción
-        4. Ejecutar el comando ```npm run prisma:migrate:prod```
-        5. Cambiar la misma variable env en el proyecto de producción
+        4. En caso de error: ejecutar el comando ```npm run prisma:migrate:prod``` para crear las tablas
