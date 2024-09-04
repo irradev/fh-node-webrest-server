@@ -15,3 +15,7 @@ function main() {
     });
     server.start();
 }
+
+
+// Buenas práctias con express (recomendado):
+// https://expressjs.com/en/advanced/best-practice-performance.html 
